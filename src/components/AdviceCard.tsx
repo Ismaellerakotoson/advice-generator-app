@@ -1,4 +1,4 @@
-import type { AdviceSlip } from "../types/Advice";
+import type { AdviceSlip } from "../types/advice";
 
 interface AdviceCardProps {
   advice: AdviceSlip;

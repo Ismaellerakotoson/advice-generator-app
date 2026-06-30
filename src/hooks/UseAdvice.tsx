@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import type { AdviceSlip, AdviceResponse } from "../types/Advice";
+import { useEffect, useState } from "react";
+import type { AdviceSlip, AdviceResponse } from "../types/advice";
 
 export default function UseAdvice() {
   const [advice, setAdvice] = useState<AdviceSlip | null>(null);
@@ -40,5 +40,4 @@ export default function UseAdvice() {
     fetchAdvice,
   };
 
-  return <div></div>;
 }
