@@ -2,7 +2,6 @@ import useAdvice from "./hooks/UseAdvice";
 import DiceButton from "./components/DiceButton";
 import patternDividerDesktop from "./assets/images/pattern-divider-desktop.svg";
 import patternDividerMobile from "./assets/images/pattern-divider-mobile.svg";
-import iconDice from "./assets/images/icon-dice.svg";
 
 function App() {
   const { advice, loading, error, fetchAdvice } = useAdvice();
